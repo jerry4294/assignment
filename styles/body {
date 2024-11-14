@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f95919;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+#recipe-list {
+  width: 30%;
+}
+
+#recipes li {
+  list-style: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+#recipe-details {
+  width: 70%;
+}
+
+#recipe-details img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  margin: 10px 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #33845B;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #265F40;
+}
